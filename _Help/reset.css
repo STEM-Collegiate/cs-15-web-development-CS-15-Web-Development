@@ -1,0 +1,14 @@
+
+
+
+#Fixing sizing or border issues, no horozintal scroll bars
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#Makes sure images arent super huge and takes over the screen and makes you scroll everywhere and stuff
+
+img{
+    max-width: 100%;
+}
