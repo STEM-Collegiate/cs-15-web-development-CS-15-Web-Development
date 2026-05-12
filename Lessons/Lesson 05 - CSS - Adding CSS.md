@@ -9,7 +9,7 @@ No matter how you are adding your styles to a web page, the syntax for creating 
 
 The image below outlines the parts of a CSS declaration.
 
-![CSS Declaration](images/CSS-declaration.png)
+![CSS Declaration](images/css-declaration.png)
 
 The selector identifies what elements the rules should apply to. In the image above, the style will be added to *all* `<p>` tags, because the selector is `p`.
 
