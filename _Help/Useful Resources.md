@@ -4,6 +4,14 @@ This document is intended to be used as an additional resource for getting help 
 
 ---
 
+## Placeholders
+
+*This list is literally a bunch of links for tools that create placeholders like dummy text or images, not a placeholder itself!*
+
+* [Lorem Ipsum Generator](https://www.lipsum.com/)
+
+---
+
 ## HTML
 
 ### Element Reference
@@ -18,6 +26,10 @@ This document is intended to be used as an additional resource for getting help 
 ---
 
 ## CSS
+
+### Syntax
+
+* [Geeks for Geeks: CSS Syntax](https://www.geeksforgeeks.org/css/css-syntax/)
 
 ### Property Reference
 

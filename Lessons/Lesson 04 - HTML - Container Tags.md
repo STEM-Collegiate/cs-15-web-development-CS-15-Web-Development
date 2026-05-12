@@ -2,7 +2,7 @@
 
 ## Overview
 
-This lesson introduces container tags used to organize and group content on a webpage. Students will learn how to structure pages using meaningful semantic elements and flexible general-purpose containers. To build an effective website, most things will be nested inside of containers. 
+This lesson introduces container tags used to organize and group content on a webpage. Students will learn how to structure pages using meaningful semantic elements and flexible general-purpose containers. To build an effective website, most things will be nested inside of containers.
 
 Consider the example below where each of these red boxes represents a container! Even a webpage as simple as the Google home page has many containers stacked inside other containers.
 
@@ -22,15 +22,15 @@ To create these sections we can use *semantic tags* to group content together. S
 
 ```html
 <body>
-    <header>
-        
-    </header>
-    <main>
-        
-    </main>
-    <footer>
-        
-    </footer>
+<header>
+
+</header>
+<main>
+
+</main>
+<footer>
+
+</footer>
 </body>
 ```
 
@@ -46,7 +46,7 @@ When talking about tags, we can sometimes get confused between "head", "header",
 
 When we use containers, like `<header>`, `<main>`, or `<footer>`, other tags will get nested *inside* of them. To keep your code organized, it is **crucial** that tags are spaced and indented in a readable way.
 
-Unlike Python, HTML does not care about indentation when it runs code. However, without clean indentation and spacing, it can become unclear what tags are nested inside of others. 
+Unlike Python, HTML does not care about indentation when it runs code. However, without clean indentation and spacing, it can become unclear what tags are nested inside of others.
 
 Consider the three code examples below. All three examples will show the *exact same webpage*. Which one is the easiest to read? Which one is the hardest to read?
 
@@ -61,18 +61,18 @@ Consider the three code examples below. All three examples will show the *exact 
 ```html
 <body>
 <header>
-<h1>Hello World!</h1>
+  <h1>Hello World!</h1>
 </header>
 <main>
-<h2>Section 1 Title</h2>
-<p>A bunch of information about section 1.</p>
-<img src="image.png" alt="">
-<h2>Section 2 Title</h2>
-<p>A bunch of information about section 2.</p>
-<img src="image.png" alt="">
+  <h2>Section 1 Title</h2>
+  <p>A bunch of information about section 1.</p>
+  <img src="image.png" alt="">
+  <h2>Section 2 Title</h2>
+  <p>A bunch of information about section 2.</p>
+  <img src="image.png" alt="">
 </main>
 <footer>
-<p>This is where social media links would go.</p>
+  <p>This is where social media links would go.</p>
 </footer>
 </body>
 ```
@@ -81,30 +81,30 @@ Consider the three code examples below. All three examples will show the *exact 
 
 ```html
 <body>
-    <header>
-        <h1>Hello World!</h1>
-    </header>
-    <main>
-        <h2>Section 1 Title</h2>
-        <p>A bunch of information about section 1.</p>
-        <img src="image.png" alt="">
-        <h2>Section 2 Title</h2>
-        <p>A bunch of information about section 2.</p>
-        <img src="image.png" alt="">
-    </main>
-    <footer>
-        <p>This is where social media links would go.</p>
-    </footer>
+<header>
+  <h1>Hello World!</h1>
+</header>
+<main>
+  <h2>Section 1 Title</h2>
+  <p>A bunch of information about section 1.</p>
+  <img src="image.png" alt="">
+  <h2>Section 2 Title</h2>
+  <p>A bunch of information about section 2.</p>
+  <img src="image.png" alt="">
+</main>
+<footer>
+  <p>This is where social media links would go.</p>
+</footer>
 </body>
 ```
 
 ## Generic Container Tags
 
-Sometimes you will need to group content together. This could be for layout purposes, styles, or even just to help yourself stay organized. To group content together, it can be placed inside the amazing `<div>` tag. 
+Sometimes you will need to group content together. This could be for layout purposes, styles, or even just to help yourself stay organized. To group content together, it can be placed inside the amazing `<div>` tag.
 
-The `<div>` is short for "division" and represents a smaller section of a webpage. 
+The `<div>` is short for "division" and represents a smaller section of a webpage.
 
-The `<div>` teg is the ***single most important tag in modern web development***. Divs can be used in place of any other container tag, can contain content, can remain empty, and can do almost anything you need.
+The `<div>` tag is the ***single most important tag in modern web development***. Divs can be used in place of any other container tag, can contain content, can remain empty, and can do almost anything you need.
 
 If you ever get stuck with web layout or organization, the best first question to ask yourself is "Can I solve this problem with a div?"
 
@@ -227,7 +227,7 @@ The `<nav>` tag is a special container used for grouping links in a nav bar. A n
 
 An "article" is any group of web content that could exist as a standalone piece of content that could be shared without additional context. For example, social media post could be shared elsewhere without needing the context of being on social media.
 
-In the image below, a post from X is shared on a CTV news article. 
+In the image below, a post from X is shared on a CTV news article.
 
 ![Article example](images/article.png)
 
@@ -271,7 +271,7 @@ The title of this website should be something along the lines of "Container Prac
 
 In your `index.html` add a `header`, `main`, and `footer` tag to your body. Be sure to put them in the right order!
 
-![Header, Main, and Footer](header-main-footer.png)
+![Add header main footer](images/add-header-main-footer.png)
 
 ---
 
@@ -279,7 +279,7 @@ In your `index.html` add a `header`, `main`, and `footer` tag to your body. Be s
 
 Inside your header add a `nav` tag for some navigation links.
 
-![Add a nav tag](add_nav_tag.png)
+![img.png](images/add-nav.png)
 
 ---
 
@@ -287,7 +287,7 @@ Inside your header add a `nav` tag for some navigation links.
 
 Create an unordered list (`<ul>`) with at least 3 empty list item tags (`<li>`).
 
-![Add an unordered list with 3 empty tags](add_unordered_list.png)
+![img_1.png](images/add-list.png)
 
 ---
 
@@ -295,7 +295,7 @@ Create an unordered list (`<ul>`) with at least 3 empty list item tags (`<li>`).
 
 Inside your `<li>` tags, be sure to include some actual links to websites. Remember that any `<a>` tag you use must include both an `href` attribute (the url to the website the link goes to) and text or an image between the tags.
 
-![Add an anchor tag for each of your favourite sites](anchor_tags_for_3.png)
+![img_2.png](images/add-anchors.png)
 
 ---
 
@@ -303,7 +303,7 @@ Inside your `<li>` tags, be sure to include some actual links to websites. Remem
 
 Using `<h1>` add a heading to your website inside the header.
 
-![Adding an H1 to the page](adding_h1.png)
+![img_3.png](images/add-heading.png)
 
 ---
 
@@ -315,7 +315,7 @@ In your `<main>` tag, add 3 different divs that each contain:
 
 * an `<h2>` heading
 * 2 paragraphs
-* an image 
+* an image
   * *For the image, the image must be locally downloaded and saved in your `images/` folder.*
 
 ---
@@ -325,7 +325,7 @@ In your `<main>` tag, add 3 different divs that each contain:
 Often on websites you will see `©` with the name of the creator and year. Add a `<p>` tag that includes a `©` symbol. This can be done by either:
 
 * Copying and pasting it from here or the internet.
-* Pressing `Alt` + `0``1``6``9` *(on your number pad)*
+* Pressing `Alt` + `0` `1` `6` `9` *(on your number pad)*
 
 ---
 
@@ -341,24 +341,24 @@ This example shows how major sections of a webpage are nested inside semantic co
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Basic Layout</title>
+  <title>Basic Layout</title>
 </head>
 
 <body>
-    <header>
-        <h1>My Website</h1>
-    </header>
+<header>
+  <h1>My Website</h1>
+</header>
 
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>This is the main content.</p>
-        </section>
-    </main>
+<main>
+  <section>
+    <h2>Welcome</h2>
+    <p>This is the main content.</p>
+  </section>
+</main>
 
-    <footer>
-        <p>© 2026 My Website</p>
-    </footer>
+<footer>
+  <p>© 2026 My Website</p>
+</footer>
 </body>
 </html>
 ```
@@ -373,25 +373,25 @@ This example shows how sections can contain multiple articles.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Articles</title>
+  <title>Articles</title>
 </head>
 
 <body>
-    <main>
-        <section>
-            <h2>News</h2>
+<main>
+  <section>
+    <h2>News</h2>
 
-            <article>
-                <h3>Article One</h3>
-                <p>This is the first article.</p>
-            </article>
+    <article>
+      <h3>Article One</h3>
+      <p>This is the first article.</p>
+    </article>
 
-            <article>
-                <h3>Article Two</h3>
-                <p>This is the second article.</p>
-            </article>
-        </section>
-    </main>
+    <article>
+      <h3>Article Two</h3>
+      <p>This is the second article.</p>
+    </article>
+  </section>
+</main>
 </body>
 </html>
 ```
@@ -406,23 +406,23 @@ This example shows nesting a navigation menu inside a header.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Navigation Example</title>
+  <title>Navigation Example</title>
 </head>
 
 <body>
-    <header>
-        <h1>My Site</h1>
+<header>
+  <h1>My Site</h1>
 
-        <nav>
-            <p>Home</p>
-            <p>About</p>
-            <p>Contact</p>
-        </nav>
-    </header>
+  <nav>
+    <p>Home</p>
+    <p>About</p>
+    <p>Contact</p>
+  </nav>
+</header>
 
-    <main>
-        <p>Welcome to the site!</p>
-    </main>
+<main>
+  <p>Welcome to the site!</p>
+</main>
 </body>
 </html>
 ```
@@ -437,14 +437,14 @@ This example shows how general-purpose containers can be nested within content.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Div and Span</title>
+  <title>Div and Span</title>
 </head>
 
 <body>
-    <div>
-        <h1>Profile</h1>
-        <p>This is a <span>very important</span> message.</p>
-    </div>
+<div>
+  <h1>Profile</h1>
+  <p>This is a <span>very important</span> message.</p>
+</div>
 </body>
 </html>
 ```
@@ -459,21 +459,21 @@ This example shows nesting lists inside structured content.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Tasks</title>
+  <title>My Tasks</title>
 </head>
 
 <body>
-    <main>
-        <section>
-            <h2>Today's Tasks</h2>
+<main>
+  <section>
+    <h2>Today's Tasks</h2>
 
-            <ol>
-                <li>Finish homework</li>
-                <li>Practice coding</li>
-                <li>Go outside</li>
-            </ol>
-        </section>
-    </main>
+    <ol>
+      <li>Finish homework</li>
+      <li>Practice coding</li>
+      <li>Go outside</li>
+    </ol>
+  </section>
+</main>
 </body>
 </html>
 ```
