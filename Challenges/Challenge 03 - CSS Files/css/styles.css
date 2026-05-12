@@ -1,0 +1,51 @@
+
+img{
+    max-width: 10%;
+}
+
+html{
+    background: black;
+}
+p{
+    font-size: large;
+    color: lightskyblue;
+}
+#choice_zero{
+    color: white;
+    font-size: large;
+}
+.one{
+    color: mediumpurple;
+    font-size: large;
+}
+
+.two{
+    color: sandybrown;
+    font-size: larger;
+}
+a{
+    color: darkkhaki;
+}
+
+#choice11{
+    color: mediumspringgreen;
+}
+
+#choice111{
+    color: paleturquoise;
+}
+
+#bullied{
+    color: magenta;
+}
+
+#mature{
+    color: lightyellow;
+}
+
+#tired{
+    color: darkolivegreen;
+}
+#buddy{
+    color:red;
+}
