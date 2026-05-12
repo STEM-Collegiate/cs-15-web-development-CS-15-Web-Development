@@ -6,7 +6,9 @@ This unit will be slightly different from our Python unit. Instead of being give
 
 Below will be a list of files added on each day of class. This list is meant to help you keep track of whether or not you are properly synced up with the parent repo!
 
-## Day 1
+## Update 1
+
+<details><summary>Update 1 Added Files</summary>
 
 ### _Help
 
@@ -24,3 +26,25 @@ Below will be a list of files added on each day of class. This list is meant to 
 * `Lesson 02 - File Management - Setting Up Projects.md`
 * `Lesson 03 - HTML - Basic Tags.md`
 * `Lesson 04 - HTML - Container Tags.md`
+
+</details>
+
+## Update 2
+
+<details><summary>Update 2 Added Files</summary>
+
+### _Help 
+
+* Update to `Useful Resources.md`
+* Added `reset.css`
+* Removed `HTML Tag Reference`
+
+### Challenges
+
+* Added `Challenge 03 - CSS Files/`
+
+### Lessons
+
+* Added `Lesson 05 - CSS - Adding CSS.md` *(currently still work in progress)*
+
+</details>
