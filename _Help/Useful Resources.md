@@ -44,11 +44,14 @@ This document is intended to be used as an additional resource for getting help 
 
 ### CSS Flexbox
 
+* [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Bro Code: Learn CSS Flexbox in 10 Minutes](https://www.youtube.com/watch?v=GteJWhCikCk)
 * [CSS Tricks: Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [MDN: CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox)
 
 ### CSS Grid
 
+* [Kevin Powell: Get Started with Grid WITHOUT Feeling Overwhelmed](https://www.youtube.com/watch?v=8QSqwbSztnA)
 * [CSS Tricks: Grid Layout Guide](https://css-tricks.com/complete-guide-css-grid-layout/)
 * [W3Schools: Grid Layout](https://www.w3schools.com/cSS/css_grid.asp)
 * [MDN: Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout)
