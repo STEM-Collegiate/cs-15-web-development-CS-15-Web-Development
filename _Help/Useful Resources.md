@@ -51,6 +51,7 @@ This document is intended to be used as an additional resource for getting help 
 
 ### CSS Grid
 
+* [Grid Garden](https://cssgridgarden.com/)
 * [Kevin Powell: Get Started with Grid WITHOUT Feeling Overwhelmed](https://www.youtube.com/watch?v=8QSqwbSztnA)
 * [CSS Tricks: Grid Layout Guide](https://css-tricks.com/complete-guide-css-grid-layout/)
 * [W3Schools: Grid Layout](https://www.w3schools.com/cSS/css_grid.asp)
